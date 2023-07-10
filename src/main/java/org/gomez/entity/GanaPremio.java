@@ -14,6 +14,7 @@ import lombok.NoArgsConstructor;
 @IdClass(GanaPremioId.class)
 @Table(name = "ganaPremio")
 public class GanaPremio {
+    // declaracion de atributos y sus anotaciones
     @Id
     @ManyToOne
     @JoinColumn(name = "CodPelicula")

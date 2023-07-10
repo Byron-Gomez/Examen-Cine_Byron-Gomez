@@ -6,6 +6,8 @@ import org.gomez.entity.Premio;
 import java.util.List;
 
 public class PremioRespository implements CrudRepository<Premio >{
+
+    // declaracion de atributos y instanciacion con EntityManager
     private final EntityManager em;
 
     public PremioRespository(EntityManager em) {

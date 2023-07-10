@@ -13,6 +13,7 @@ import lombok.NoArgsConstructor;
 @Entity
 @Table(name = "generos")
 public class Genero {
+    // declaracion de atributos y sus anotaciones
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "IdGenero")

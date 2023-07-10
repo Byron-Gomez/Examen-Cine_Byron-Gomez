@@ -13,6 +13,8 @@ import java.util.List;
 
 public class PeliculaRepository implements CrudRepository<Pelicula>,CambioMonedaRepository, BusquedaEnPeliculaRepository {
 
+    // declaracion de atributos y instanciacion con EntityManager
+
     private final EntityManager em;
 
     public PeliculaRepository(EntityManager em) {

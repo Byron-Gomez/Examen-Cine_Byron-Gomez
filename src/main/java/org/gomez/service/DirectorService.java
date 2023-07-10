@@ -6,6 +6,9 @@ import java.util.List;
 import java.util.Optional;
 
 public interface DirectorService {
+
+    // declaracion de metodos de interfaces
+
     List<Director> listar();
     Optional<Director> porId(Integer id);
     void crear(Director director);

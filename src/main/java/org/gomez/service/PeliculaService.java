@@ -7,6 +7,9 @@ import org.gomez.repository.TipoMoneda;
 import java.util.List;
 
 public interface PeliculaService {
+
+    // declaracion de metodos de interfaces
+
     List<Pelicula> listar();
     Pelicula porId(Integer id);
     void crear(Pelicula pelicula);

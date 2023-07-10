@@ -7,6 +7,8 @@ import javax.swing.*;
 import java.util.List;
 
 public class GeneroRepository implements CrudRepository<Genero>{
+    // declaracion de atributos y instanciacion con EntityManager
+
     private final EntityManager em;
 
     public GeneroRepository(EntityManager em) {

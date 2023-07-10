@@ -11,6 +11,8 @@ import java.util.List;
 
 public class ParticipaRepository implements CrudRepository<Participa>, EncontrarIdRepository<Participa>, BusquedaActorRepository{
 
+    // declaracion de atributos y instanciacion con EntityManager
+
     private final EntityManager em;
 
     public ParticipaRepository(EntityManager em) {

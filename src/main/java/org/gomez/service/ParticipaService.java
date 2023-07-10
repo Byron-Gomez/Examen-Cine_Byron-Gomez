@@ -6,6 +6,9 @@ import org.gomez.repository.TipoBusqueda;
 import java.util.List;
 
 public interface ParticipaService {
+
+    // declaracion de metodos de interfaces
+
     List<Participa> listar();
     List listarPorId(Integer id, TipoBusqueda busqueda);
     void porId(Integer id, TipoBusqueda busqueda);

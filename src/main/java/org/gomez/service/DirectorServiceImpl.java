@@ -11,6 +11,9 @@ import java.util.List;
 import java.util.Optional;
 
 public class DirectorServiceImpl implements DirectorService{
+
+    // declaracion de atributos y instanciacion con EntityManager
+
     private final EntityManager em;
     private CrudRepository<Director> repository;
     private BusquedaDirectorRepository busquedaDirectorRepository;

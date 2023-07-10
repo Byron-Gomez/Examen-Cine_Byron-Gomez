@@ -11,6 +11,8 @@ import java.time.format.DateTimeFormatter;
 import java.util.List;
 
 public class DirectorRepository implements CrudRepository<Director>,BusquedaDirectorRepository{
+    // declaracion de atributos y instanciacion con EntityManager
+
     private final EntityManager em;
 
     public DirectorRepository(EntityManager em) {

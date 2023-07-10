@@ -6,6 +6,9 @@ import java.util.List;
 import java.util.Optional;
 
 public interface ActorService {
+
+    // declaracion de metodos de interfaces
+
     List<Actor> listar();
     Optional<Actor> porId(Integer id);
     void crear(Actor actor);

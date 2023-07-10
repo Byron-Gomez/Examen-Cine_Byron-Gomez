@@ -8,6 +8,9 @@ import org.gomez.repository.*;
 import java.util.List;
 
 public class ParticipaServiceImpl implements ParticipaService{
+
+    // declaracion de atributos y instanciacion con EntityManager
+
     private final EntityManager em;
     private CrudRepository<Participa> repository;
     private EncontrarIdRepository idRepository;

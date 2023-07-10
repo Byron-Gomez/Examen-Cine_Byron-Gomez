@@ -4,7 +4,9 @@ import java.util.List;
 
 public interface BusquedaEnPeliculaRepository extends BusquedaDistribuidoraRepository, BusquedaRecaudacionRepository {
 
-     List<Object[]> peliculaPorNacion();
+    // declaracion de metodos de interfaces
+
+    List<Object[]> peliculaPorNacion();
 
     List<Object[]> peliculaPorNacion(String nacionalidad);
 

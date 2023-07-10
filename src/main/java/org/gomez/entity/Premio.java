@@ -14,6 +14,8 @@ import lombok.NoArgsConstructor;
 @Entity
 @Table(name = "premios")
 public class Premio {
+    // declaracion de atributos y sus anotaciones
+
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "codPremio")

@@ -7,6 +7,9 @@ import java.util.List;
 import java.util.Optional;
 
 public interface PremioService {
+
+    // declaracion de metodos de interfaces
+
     List<Premio> listar();
     Optional<Premio> porId(Integer id);
     void crear(Premio premio);

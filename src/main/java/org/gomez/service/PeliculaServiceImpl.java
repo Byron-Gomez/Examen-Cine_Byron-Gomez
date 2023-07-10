@@ -7,6 +7,9 @@ import org.gomez.repository.*;
 import java.util.List;
 
 public class PeliculaServiceImpl implements PeliculaService {
+
+    // declaracion de atributos y instanciacion con EntityManager
+
     private final EntityManager em;
     private CrudRepository<Pelicula> repository;
     private CambioMonedaRepository monedaRepository;

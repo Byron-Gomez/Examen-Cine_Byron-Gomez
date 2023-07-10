@@ -11,6 +11,7 @@ import java.time.format.DateTimeFormatter;
 import java.util.List;
 
 public class ActorRepository implements CrudRepository<Actor>,BusquedaActorRepository{
+    // declaracion de atributos y instanciacion con EntityManager
     private final EntityManager em;
 
     public ActorRepository(EntityManager em) {

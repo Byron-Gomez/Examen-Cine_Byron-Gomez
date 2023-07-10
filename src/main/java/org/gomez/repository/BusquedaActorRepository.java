@@ -5,6 +5,9 @@
         import java.util.List;
 
         public interface BusquedaActorRepository {
+
+            // declaracion de metodos de interfaces
+
             List<Actor> listaActorMuertoNacion(String nacion);
             List<Object[]> actorMayorParticipacion();
 

@@ -12,6 +12,8 @@ import java.util.Optional;
 
 public class ActorServiceImpl implements ActorService{
 
+    // declaracion de atributos y instanciacion con EntityManager
+
     private final EntityManager em;
     private CrudRepository<Actor> repository;
     private BusquedaActorRepository busquedaActorRepository;

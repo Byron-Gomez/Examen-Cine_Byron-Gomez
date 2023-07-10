@@ -16,6 +16,7 @@ import java.time.format.DateTimeFormatter;
 @Entity
 @Table(name = "directores")
 public class Director {
+    // declaracion de atributos y sus anotaciones
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "CodDirector")

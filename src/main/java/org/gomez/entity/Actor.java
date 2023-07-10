@@ -18,6 +18,7 @@ import java.time.format.DateTimeFormatter;
 @Table(name = "actores")
 
 public class Actor {
+    // declaracion de atributos y sus anotaciones
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "CodActor")

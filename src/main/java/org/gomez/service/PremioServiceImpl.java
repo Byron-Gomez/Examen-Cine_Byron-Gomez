@@ -9,6 +9,9 @@ import java.util.List;
 import java.util.Optional;
 
 public class PremioServiceImpl implements PremioService{
+
+    // declaracion de atributos y instanciacion con EntityManager
+
     private final EntityManager em;
     private CrudRepository<Premio> repository;
 

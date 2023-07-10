@@ -4,17 +4,45 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="638d9f21-1ed6-4ae8-8e20-f917afa62170" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/cine.sql" afterDir="false" />
+    <list default="true" id="638d9f21-1ed6-4ae8-8e20-f917afa62170" name="Changes" comment="primer-commit">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/gomez/entity/Actor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/gomez/entity/Actor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/gomez/entity/Director.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/gomez/entity/Director.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/gomez/entity/GanaPremio.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/gomez/entity/GanaPremio.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/gomez/entity/Genero.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/gomez/entity/Genero.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/gomez/entity/Participa.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/gomez/entity/Participa.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/gomez/entity/Pelicula.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/gomez/entity/Pelicula.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/gomez/entity/Premio.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/gomez/entity/Premio.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/gomez/exception/MensajeExceptiones.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/gomez/exception/MensajeExceptiones.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/gomez/repository/ActorRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/gomez/repository/ActorRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/gomez/repository/BusquedaActorRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/gomez/repository/BusquedaActorRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/gomez/repository/BusquedaDirectorRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/gomez/repository/BusquedaDirectorRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/gomez/repository/BusquedaDistribuidoraRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/gomez/repository/BusquedaDistribuidoraRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/gomez/repository/BusquedaEnPeliculaRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/gomez/repository/BusquedaEnPeliculaRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/gomez/repository/BusquedaRecaudacionRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/gomez/repository/BusquedaRecaudacionRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/gomez/repository/CambioMonedaRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/gomez/repository/CambioMonedaRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/gomez/repository/CrudRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/gomez/repository/CrudRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/gomez/repository/DirectorRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/gomez/repository/DirectorRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/gomez/repository/EncontrarIdRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/gomez/repository/EncontrarIdRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/gomez/repository/GanaPremioRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/gomez/repository/GanaPremioRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/gomez/repository/GeneroRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/gomez/repository/GeneroRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/gomez/repository/ParticipaRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/gomez/repository/ParticipaRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/gomez/repository/PeliculaRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/gomez/repository/PeliculaRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/gomez/repository/PremioRespository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/gomez/repository/PremioRespository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/gomez/service/ActorService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/gomez/service/ActorService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/gomez/service/ActorServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/gomez/service/ActorServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/gomez/service/DirectorService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/gomez/service/DirectorService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/gomez/service/DirectorServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/gomez/service/DirectorServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/gomez/service/GanaPremioService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/gomez/service/GanaPremioService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/gomez/service/GanaPremioServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/gomez/service/GanaPremioServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/gomez/service/GeneroService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/gomez/service/GeneroService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/gomez/service/GeneroServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/gomez/service/GeneroServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/gomez/service/ParticipaService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/gomez/service/ParticipaService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/gomez/service/ParticipaServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/gomez/service/ParticipaServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/gomez/service/PeliculaService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/gomez/service/PeliculaService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/gomez/service/PeliculaServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/gomez/service/PeliculaServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/gomez/service/PremioService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/gomez/service/PremioService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/gomez/service/PremioServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/gomez/service/PremioServiceImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -115,8 +143,17 @@
       <workItem from="1688764807676" duration="19923000" />
       <workItem from="1688851792404" duration="774000" />
       <workItem from="1688853036488" duration="5374000" />
-      <workItem from="1688960196453" duration="413000" />
+      <workItem from="1688960196453" duration="2381000" />
     </task>
+    <task id="LOCAL-00001" summary="primer-commit">
+      <option name="closed" value="true" />
+      <created>1688960826633</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1688960826634</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -132,5 +169,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="primer-commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="primer-commit" />
   </component>
 </project>
